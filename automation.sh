@@ -1,6 +1,5 @@
 sudo apt update -y
-sudo apt install apache2
-y
+sudo apt install apache2 -y
 sudo ufw enable
 sudo ufw allow 'Apache'
 sudo systemctl status apache2
